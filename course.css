@@ -774,11 +774,13 @@ input{
     opacity: 1;
     padding-top: 75px;
     padding-bottom: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 
 }
 .footer h3{
-    width: 154px;
+    /* width: 154px; */
     height: 32px;
     angle: 0 deg;
     opacity: 1;
@@ -789,11 +791,12 @@ input{
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #FFFFFF;
+    text-align: left;
 
 
 }
 .footer p{
-    width: 211px;
+    /* width: 211px; */
     height: 40px;
     angle: 0 deg;
     opacity: 1;
@@ -808,7 +811,7 @@ input{
 
 }
 .footer ul{
-    width: 67px;
+    /* width: 67px; */
     height: 24px;
     angle: 0 deg;
     opacity: 1;
@@ -819,7 +822,7 @@ input{
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
-    text-align: justify;
+    text-align: left;
 
 
 }
@@ -831,6 +834,11 @@ ul{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    /* border: brown  1px solid; */
+    width: 300px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .foot{
     width: 1440;
@@ -849,5 +857,199 @@ ul{
     padding-top: 80px;
     padding-bottom: 80px;
     left: 195px;
+
+}
+.fourthsection{
+    background-color: #252B42;
+    width: 1440;
+    height: 1236px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.fourthsectext h6{
+    width: 114px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #23A6F0;
+
+
+}
+.fourthsectext h2{
+    width: 690px;
+    height: 50px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+.fourthsectext p{
+    width: 469px;
+    height: 40px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.fourthsectext{
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.upper{
+    display: flex;
+    background-image:url(product-cover-177.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 300px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.upper button{
+    width: 51px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    background-color: #E74040;
+    float: left;
+
+}
+.fcard1{
+    width: 330px;
+    height: 678px;
+    angle: 0 deg;
+    opacity: 1;
+    background-color: #FFFFFF;
+
+}
+.fcard1 h5{
+    width: 131px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+.fcard1 p{
+    width: 280px;
+    height: 60px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+.fcard1 h6{
+    width: 57px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+.fcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mid h5{
+    width: 155px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+
+
+}
+.mid img{
+    width: 50px;
+    height: 20px;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    height: 26px;
+    justify-content: space-between;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.dollar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 108px;
+    height: 34px;
+    gap: 5px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 3px;
 
 }
