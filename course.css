@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     
@@ -16,14 +17,15 @@ body{
     opacity: 1;
     
     gap: 30px;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
 
     
 }
 .firstsection{
     background-image: url(cover.png) ;
-    
+    background-size: cover cover;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 889px;
     
@@ -68,7 +70,7 @@ h3{
     margin-top: 17px;
     margin-left: 136px;
     margin-right: 30px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 24px;
     leading-trim: NONE;
@@ -93,7 +95,7 @@ h3{
     background: #23A6F0;
     border: 0;
     color: white;
-    font-family: Montserrat;
+    font-family : 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -118,7 +120,7 @@ button{
     gap: 21px !important;
 }
 h5{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     leading-trim: NONE;
@@ -152,7 +154,7 @@ h5{
 
 }
 h1{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 58px;
     leading-trim: NONE;
@@ -167,7 +169,7 @@ h1{
 
 }
 h4{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20px;
     leading-trim: NONE;
@@ -249,7 +251,7 @@ h4{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     /* font-weight: 700; */
     font-size: 14px;
     leading-trim: NONE;
@@ -268,7 +270,7 @@ h4{
     height: 50px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     leading-trim: NONE;
@@ -285,7 +287,7 @@ h4{
     height: 40px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
     font-size: 14px;
     leading-trim: NONE;
@@ -307,8 +309,18 @@ h4{
     align-items: center;
 
 }
+#dash{
+    width: 50px;
+    height: 5px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    background-color: #E74040;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
 .cards h5{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     leading-trim: NONE;
@@ -324,7 +336,7 @@ h4{
 
 }
 .cards p {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -408,6 +420,7 @@ h4{
 
 }
 .text{
+    padding-top: 150px;
     width: 507px;
     height: 246px;
     gap: 35px;
@@ -423,7 +436,7 @@ h4{
     height: 50px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     leading-trim: NONE;
@@ -438,7 +451,7 @@ h4{
     height: 60px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -493,7 +506,7 @@ img{
 
 }
 .container h6{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -508,7 +521,7 @@ img{
 
 }
 .container h2{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     leading-trim: NONE;
@@ -529,7 +542,7 @@ img{
     height: 40px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -568,7 +581,7 @@ img{
 
 }
 .firstcard h5{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     leading-trim: NONE;
@@ -586,7 +599,7 @@ img{
 
 }
 .firstcard h6{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -608,7 +621,7 @@ img{
     height: 120px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -658,7 +671,7 @@ img{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -675,7 +688,7 @@ img{
     angle: 0 deg;
     opacity: 1;
     color: #ffffff;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     leading-trim: NONE;
@@ -690,7 +703,7 @@ img{
     height: 40px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -784,7 +797,7 @@ input{
     height: 32px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 24px;
     leading-trim: NONE;
@@ -800,7 +813,7 @@ input{
     height: 40px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -815,7 +828,7 @@ input{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -885,7 +898,7 @@ ul{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -901,7 +914,7 @@ ul{
     height: 50px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     leading-trim: NONE;
@@ -917,7 +930,7 @@ ul{
     height: 40px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -977,7 +990,7 @@ ul{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 16px;
     leading-trim: NONE;
@@ -991,7 +1004,7 @@ ul{
     height: 60px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     leading-trim: NONE;
@@ -1006,7 +1019,7 @@ ul{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -1027,7 +1040,7 @@ ul{
     height: 24px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
     leading-trim: NONE;
@@ -1066,23 +1079,24 @@ ul{
     padding-bottom: 5px;
     padding-left: 3px;
     color: #40BB15;
+    margin-top: 10px;
 
 }
-.times h5{
-    width: 71px;
-    height: 16px;
+/* .times h5{
+    /* width: 71px; */
+    /* height: 16px;
     angle: 0 deg;
     opacity: 1;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     leading-trim: NONE;
     line-height: 16px;
     letter-spacing: 0.2px;
-    color: #737373;
+    color: #737373; */ 
 
 
-}
+
 #learn{
     width: 141.14285278320312px;
     height: 44px;
@@ -1175,16 +1189,117 @@ ul{
     padding-left: 25px;
 
 }
-.times{
+/* .times{
+    display: inline-flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* width: 280px; */
+    /* height: 46px;
+    /* justify-content: space-between; */
+    /* angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 0px;
+    width: 300px; */ 
+
+
+#dashh{
+    width: 75px;
+    height: 5px;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    background-color: #E74040;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+.download{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: baseline;
+}
+.download i{
+    font-size: 20px;
+    color: #737373;
+}
+.download h5{
+    color: #737373;
+}
+#icons img{
+    width: 40px;
+    height: 40px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 44.79px;
+
+}
+#icons{
+    top: 240px;
+    left: 20px;
+    position: relative;
+}
+.times img{
     width: 280px;
     height: 46px;
     justify-content: space-between;
     angle: 0 deg;
     opacity: 1;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    
 
+}
+#dollar1{
+    color: #BDBDBD;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+
+}
+#dollar2{
+    color:#40BB15;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+
+
+}
+.lis img{
+    width: 112px;
+    height: 24px;
+    gap: 20px;
+    angle: 0 deg;
+    opacity: 1;
+    margin-left: 105px;
+    margin-top: 20px;
+
+}
+.lis p{
+    /* width: 211px; */
+    /* height: 40px; */
+    angle: 0 deg;
+    opacity: 1;
+    color: #FFFFFF;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    /* line-height: 20px; */
+    letter-spacing: 0.2px;
+    /* padding-top: 50px; */
+
+
+
+}
+#mhm{
+    margin-left: 105px;
 }
