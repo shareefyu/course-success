@@ -860,11 +860,24 @@ ul{
 
 }
 .fourthsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #252B42;
     width: 1440;
     height: 1236px;
     angle: 0 deg;
     opacity: 1;
+    width: 1050;
+    height: 1212;
+    gap: 80px;
+    angle: 0 deg;
+    opacity: 1;
+    left: 195px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+
 
 }
 .fourthsectext h6{
@@ -959,7 +972,7 @@ ul{
     background-color: #FFFFFF;
 
 }
-.fcard1 h5{
+.fcard h5{
     width: 131px;
     height: 24px;
     angle: 0 deg;
@@ -973,7 +986,7 @@ ul{
     color: #252B42;
 
 }
-.fcard1 p{
+.fcard p{
     width: 280px;
     height: 60px;
     angle: 0 deg;
@@ -988,7 +1001,7 @@ ul{
 
 
 }
-.fcard1 h6{
+.fcard h6{
     width: 57px;
     height: 24px;
     angle: 0 deg;
@@ -1005,8 +1018,9 @@ ul{
 .fcard{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 }
 .mid h5{
     width: 155px;
@@ -1051,5 +1065,126 @@ ul{
     padding-right: 3px;
     padding-bottom: 5px;
     padding-left: 3px;
+    color: #40BB15;
+
+}
+.times h5{
+    width: 71px;
+    height: 16px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+#learn{
+    width: 141.14285278320312px;
+    height: 44px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 37px;
+    border-width: 1px;
+    color: #23A6F0;
+    background-color: transparent;
+    border: 1px solid #23A6F0;
+
+}
+.fcard2{
+    width: 330px;
+    height: 678px;
+    angle: 0 deg;
+    opacity: 1;
+    background-color: #FFFFFF;
+
+}
+/* .fcard2 h5{
+    width: 131px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+
+}
+.fcard2 p{
+    width: 280px;
+    height: 60px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+
+}
+.fcard2 h6{
+    width: 57px;
+    height: 24px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+} */
+
+
+.fcard2 .upper{
+    
+    display: flex;
+    background-image:url(product-cover-176.png);
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 300px;
+    angle: 0 deg;
+    opacity: 1;
+}
+.middle{
+    width: 330px;
+    height: 378px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+
+}
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    height: 46px;
+    justify-content: space-between;
+    angle: 0 deg;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
