@@ -1271,16 +1271,17 @@ input{
 
 
 
-@media  screen and (max-width:524px) {
+@media  screen and (max-width:400px) {
     *{
         margin: 0; 
     }
    .firstsection{
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 0px;
+    
    }
    .top h3{
-    font-size: 12px;
+    font-size: 9px;
     margin-right: 0px;
    }
    .topright{
@@ -1290,7 +1291,7 @@ input{
     justify-content: left;
    }
    .topb button{
-    font-size: 8px;
+    font-size: 6px;
     padding: 0px;
     gap: 0px;
    }
@@ -1298,9 +1299,11 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: left;
+    max-width: 380px;
    }
    .topbuttons{
-    margin-left: -100px;
+    width: 240px;
+    margin-left: -120px;
     gap: 0px;
     padding: 0px;
     display: flex;
@@ -1308,32 +1311,33 @@ input{
     justify-content: left;
    }
    #bec{
-    font-size: 8px;
-    width:80px;
-    height: 40px;
+    font-size: 6px;
+    width:60px;
+    height: 30px;
     margin-right: 0px;
-    margin-left: -20px;
+    margin-left: -40px;
    }
    #btn{
-    font-size: 8px;
+    font-size: 6px;
     margin-left: 0px;
-    margin-right: -20px;
+    margin-right: -40px;
     padding: 0px;
    }
    .sec1content h1{
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: -30px;
+    width: 370px;
     
    }
     .main h6{
-        font-size: 8px;
+        font-size: 6px;
         
     }
     .main h2{
-        font-size: 15px;
+        font-size: 10px;
     }
     .main p{
-        font-size: 8px;
+        font-size: 6px;
     }
     .cards{
         display: flex;
@@ -1366,6 +1370,7 @@ input{
     }
     .thirdsection{
         height: 700px;
+        max-width: 390px;
         
     }
     .thirdseccontent{
@@ -1411,25 +1416,28 @@ input{
     }
     .text h2{
         margin-top: -20px;
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: -25px;
         
 
     }
     .text p{
-        font-size: 12px;
+        font-size: 9px;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 27px;
         margin-right: 0px;
+    }
+    .fourthsection{
+        max-width: 390px;
     }
     .fourthsectext h6{
         font-size: 12px;
     }
     .fourthsectext h2{
-        font-size: 18px;
+        font-size: 14px;
     }
     .fourthsectext p{
-        font-size: 8px;
+        font-size: 7px;
     }
     .fcard{
         display: flex;
@@ -1539,13 +1547,13 @@ input{
         
     }
     .container h6{
-        font-size: 12px;
+        font-size: 10px;
     }
     .container h2{
-        font-size: 18px;
+        font-size: 14px;
     }
     .container p{
-        font-size: 9px;
+        font-size: 7px;
     }
     .cardholder{
         display: flex;
@@ -1575,6 +1583,7 @@ input{
     .fifthsection{
         height: 1200px;
         padding: 0px;
+        max-width: 390px;
     }
     .fifthseccontent{
         padding: 0px;
@@ -1588,6 +1597,7 @@ input{
     }
     .endtext p{
         font-size: 8px;
+        width: 380px;
     }
     .endtext{
         margin-top: 0px;
@@ -1610,7 +1620,11 @@ input{
         top: 0px;
         padding: 0px;
         bottom: 80px;
+        max-width: 390px;
         
+    }
+    .foot{
+        max-width: 390px;
     }
     .footer{
         display: grid;
@@ -1618,7 +1632,8 @@ input{
         text-align: left;
         height: 20px;
         gap: 5px;
-        margin-left: 100px;
+        margin-left: 140px;
+        
     }
     .lis h3{
         font-size: 18px;
