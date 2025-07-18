@@ -23,12 +23,12 @@ body{
 .top{
     display: flex;
     flex-direction: row;
-    width: 1322;
+    
     height: 91px;
     angle: 0 deg;
     opacity: 1;
     left: 59px;
-    width: 815px;
+    /* width: 815px; */
     height: 58px;
     angle: 0 deg;
     opacity: 1;
@@ -119,7 +119,7 @@ body{
 
 }
 .sec1content{
-    width: 1050px;
+    /* width: 1050px; */
     height: 705px;
     gap: 80px;
     angle: 0 deg;
@@ -195,7 +195,7 @@ h5{
     leading-trim: NONE;
     line-height: 24px;
     letter-spacing: 0.1px;
-    width: 77;
+    
     height: 24;
     angle: 0 deg;
     opacity: 1;
@@ -505,7 +505,7 @@ img{
 
 }
 .fifthsection{
-    width: 1440;
+    /* width: 1440; */
     height: 988px;
     angle: 0 deg;
     opacity: 1;
@@ -517,7 +517,7 @@ img{
 
 }
 .fifthseccontent{
-    width: 1050px;
+    /* width: 1050px; */
     height: 988.0136108398438px;
     gap: 96px;
     angle: 0 deg;
@@ -691,7 +691,7 @@ img{
     align-items: center;
 }
 .endsection{
-    width: 1440;
+    
     height: 594px;
     angle: 0 deg;
     opacity: 1;
@@ -783,7 +783,7 @@ input{
     width: 117px;
    
     left: 568px;
-    width: 117;
+   
     height: 58;
     angle: 0 deg;
     opacity: 1;
@@ -800,7 +800,7 @@ input{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    width: 1050;
+    
     height: 897;
     gap: 80px;
     angle: 0 deg;
@@ -813,7 +813,7 @@ input{
     background-color: #252B42;
     width: 100%;
     margin-top: -20px;
-    width: 1050;
+    
     height: 338px;
     gap: 80px;
     angle: 0 deg;
@@ -872,11 +872,11 @@ input{
     justify-content: center;
     align-items: center;
     background-color: #252B42;
-    width: 1440;
+    
     height: 1236px;
     angle: 0 deg;
     opacity: 1;
-    width: 1050;
+    
     height: 1212;
     gap: 80px;
     angle: 0 deg;
@@ -935,7 +935,7 @@ input{
 
 }
 .fourthsectext{
-    width: 691px;
+    /* width: 691px; */
     height: 134px;
     gap: 10px;
     angle: 0 deg;
@@ -1052,7 +1052,7 @@ input{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 280px;
+    /* width: 280px; */
     height: 26px;
     justify-content: space-between;
     angle: 0 deg;
