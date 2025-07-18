@@ -211,7 +211,7 @@ h1{
     line-height: 80px;
     letter-spacing: 0.2px;
     color: #ffffff;
-    width: 542px;
+    /* width: 542px; */
     height: 240px;
     angle: 0 deg;
     opacity: 1;
@@ -271,7 +271,7 @@ h4{
 
 }
 .main{
-    width: 691px;
+    /* width: 691px; */
     height: 134px;
     gap: 10px;
     angle: 0 deg;
@@ -333,7 +333,7 @@ h4{
 
 }
 .cards{
-    width: 687px;
+    /* width: 687px; */
     height: 292px;
     gap: 30px;
     angle: 0 deg;
@@ -456,7 +456,7 @@ h4{
 }
 .text{
     padding-top: 150px;
-    width: 507px;
+    /* width: 507px; */
     height: 246px;
     gap: 35px;
     angle: 0 deg;
@@ -497,7 +497,7 @@ h4{
 
 }
 img{
-    width: 508px;
+    /* width: 508px; */
     height: 570px;
     gap: 30px;
     angle: 0 deg;
@@ -573,7 +573,7 @@ img{
 
 }
 .container p{
-    width: 469px;
+    /* width: 469px; */
     height: 40px;
     angle: 0 deg;
     opacity: 1;
@@ -734,7 +734,7 @@ img{
 
 }
 .endtext p{
-    width: 469px;
+    /* width: 469px; */
     height: 40px;
     angle: 0 deg;
     opacity: 1;
@@ -904,7 +904,7 @@ input{
 
 }
 .fourthsectext h2{
-    width: 690px;
+    /* width: 690px; */
     height: 50px;
     angle: 0 deg;
     opacity: 1;
@@ -920,7 +920,7 @@ input{
 
 }
 .fourthsectext p{
-    width: 469px;
+    /* width: 469px; */
     height: 40px;
     angle: 0 deg;
     opacity: 1;
